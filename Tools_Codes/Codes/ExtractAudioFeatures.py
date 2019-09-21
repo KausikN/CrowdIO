@@ -25,7 +25,7 @@ def extract_features(parent_dir, sub_dirs, file_ext="*.wav", bands = 128, frames
 				if(len(sound_clip[int(start):int(end)]) == window_size):
 					signal = sound_clip[int(start):int(end)]
 					melspec = librosa.feature.melspectrogram(signal, n_mels = bands)
-					# logspec = librosa.logamplitude(melspec)		# MISSING LOGAMPLITUDE
+					logspec = librosa.amplitude_to_db(melspec)		# MISSING LOGAMPLITUDE
 					logspec = melspec
 					logspec = logspec.T.flatten()[:, np.newaxis].T
 					log_specgrams.append(logspec)
@@ -40,5 +40,5 @@ def extract_features(parent_dir, sub_dirs, file_ext="*.wav", bands = 128, frames
 	features = log_specgrams
 	return np.array(features)
 
-features = extract_features("C:/Users/Kausik N/Desktop", ["SoundBasedCrowdDetection"], "0.wav")
-print("\n\nFeatures:\n\n", features)
+features = extract_features("C:/GitHub Codes and Projects/Projects", ["CrowdIO-Project"], "0.wav")
+print("\n\n", features.shape, " - Features:\n\n", features)
