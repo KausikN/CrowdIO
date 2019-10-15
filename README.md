@@ -1,2 +1,2 @@
 # CrowdIO-Project
- Crowd Analysis Solution using Audio based AI
+ Crowd Analysis Solution using ML
