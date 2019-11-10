@@ -1,0 +1,78 @@
+Inputs:
+	Day: 21.0
+	Month: 1.0
+	Year: 2009.0
+	Time: 18.0
+	FestivalFactor: 0.5
+Outputs:
+	CrowdSize: 125.15959
+	MaleRatio: 0.5007877
+Others:
+	FemaleRatio: 0.4992123246192932
+
+
+Inputs:
+	Day: 12.0
+	Month: 2.0
+	Year: 2020.0
+	Time: 12.0
+	FestivalFactor: 0.6
+Outputs:
+	CrowdSize: 125.15959
+	MaleRatio: 0.5007877
+Others:
+	FemaleRatio: 0.4992123246192932
+
+
+Inputs:
+	Day: 12.0
+	Month: 2.0
+	Year: 2020.0
+	Time: 12.0
+	FestivalFactor: 0.6
+Outputs:
+	CrowdSize: 125.15959
+	MaleRatio: 0.5007877
+Others:
+	FemaleRatio: 0.4992123246192932
+
+
+Inputs:
+	Day: 1.0
+	Month: 1.0
+	Year: 1.0
+	Time: 1.0
+	FestivalFactor: 1.0
+Outputs:
+	CrowdSize: 125.15985
+	MaleRatio: 0.500787
+Others:
+	FemaleRatio: 0.49921298027038574
+
+
+Inputs:
+	Day: 12.0
+	Month: 10.0
+	Year: 2020.0
+	Time: 12.0
+	FestivalFactor: 0.75
+Outputs:
+	CrowdSize: 125.15959
+	MaleRatio: 0.5007877
+Others:
+	FemaleRatio: 0.4992123246192932
+
+
+Inputs:
+	Day: 12.0
+	Month: 1.0
+	Year: 2020.0
+	Time: 3.0
+	FestivalFactor: 0.75
+Outputs:
+	CrowdSize: 125.15959
+	MaleRatio: 0.5007877
+Others:
+	FemaleRatio: 0.4992123246192932
+
+

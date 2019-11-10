@@ -84,15 +84,15 @@ def fetch_inputs(entries):
 	print("Inputs")
 	print(inputs)
 	print("Outputs")
-	print(outputs)
+	print(np.around(outputs, 2))
 
 	# For Crowd Size and Male Ratio
 	for out, lab in zip(outputs, outlabs):
-		lab['text'] = str(out)
+		lab['text'] = str(round(out, 2))
 
 	# For Female Ratio
 	others.append(str(1 - outputs[1]))
-	otherlabs[0]['text'] = str(1 - outputs[1])
+	otherlabs[0]['text'] = str(round(1 - outputs[1], 2))
 
 	LogData(inputs=inputs, outputs=outputs, others=others, filename=filename, option='a')
 
